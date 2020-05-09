@@ -1,0 +1,13 @@
+A installer :
+
+apt-get install python3
+apt-get install python3-pip
+
+python3 -m pip install -U spacy
+python3 -m spacy download fr_core_news_sm
+python3 -m spacy download en_core_web_sm
+python3 -m pip install textract
+python3 -m pip install regex
+apt-get install mupdf mupdf-tools
+
+
